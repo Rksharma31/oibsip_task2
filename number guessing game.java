@@ -1,12 +1,12 @@
 import java.util.*;
-public class NumberGuessingGame {
+public class Game {
     static ArrayList<Integer> scoreBoard = new ArrayList<Integer>();
     public static void main(String[] args) {
-        NumberGuessingGame methodChange = new NumberGuessingGame();
+        Game methodChange = new Game();
         methodChange.menu(scoreBoard);
     }
     public void menu(ArrayList<Integer> scoreBoard) {
-        NumberGuessingGame methodChange = new NumberGuessingGame();
+        Game methodChange = new Game();
         Scanner input = new Scanner(System.in);
         System.out.println("--------------------");
         System.out.println("Welcome to the number game");
